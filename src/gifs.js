@@ -5,7 +5,7 @@ export const loadGifs = async(weather) => {
 
     let response;
     if(weather === "") {
-        // response = await fetch(`https://api.giphy.com/v1/gifs/trending?api_key=ytJn2PKdxhabvU508wbi68ZDPW9c6C8k`);
+        response = await fetch(`https://api.giphy.com/v1/gifs/trending?api_key=ytJn2PKdxhabvU508wbi68ZDPW9c6C8k`);
     } else {
         // response = await fetch(`https://api.giphy.com/v1/gifs/translate?api_key=ytJn2PKdxhabvU508wbi68ZDPW9c6C8k&s=${encodedInput}`);
     }
